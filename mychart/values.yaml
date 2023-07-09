@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: 241428425432.dkr.ecr.us-west-2.amazonaws.com/nick-demo # replace with your ECR details
   pullPolicy: IfNotPresent
-  tag: "1.0.1"  # this should be overridden by --set image.tag at deployment time
+  tag: "1.0.2"  # this should be overridden by --set image.tag at deployment time
 
 service:
   type: LoadBalancer
