@@ -6,7 +6,7 @@ image:
   tag: "latest"  # this should be overridden by --set image.tag at deployment time
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
   targetPort: 8080
 
