@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: 353515307211.dkr.ecr.us-west-2.amazonaws.com/nick-demo:latest # replace with your ECR details
+  repository: 353515307211.dkr.ecr.us-west-2.amazonaws.com/nick-demo # replace with your ECR details
   pullPolicy: IfNotPresent
   tag: "latest"  # this should be overridden by --set image.tag at deployment time
 
